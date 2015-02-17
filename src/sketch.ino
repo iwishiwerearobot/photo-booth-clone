@@ -12,6 +12,15 @@ void loop()
 {
 }
 
+void startSeq()
+{
+  for(int i-0; i<4; i++)
+  {
+   fireIR();
+   delay(5000);
+  }
+}
+
 void fireIR()
 {
   for(int i=0; i<16; i++)
