@@ -10,6 +10,11 @@ void setup()
 
 void loop()
 {
+  if (digitalRead(button) == HIGH)
+  {
+    delay(2000);
+    startSeq();
+  }
 }
 
 void startSeq()
@@ -39,4 +44,3 @@ void fireIR()
     delayMicroseconds(11);
   }
 }
-
