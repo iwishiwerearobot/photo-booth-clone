@@ -19,9 +19,7 @@ void loop()
 {
   if (digitalRead(button) == HIGH)
   {
-    //TURN ON ALL LEDS MINUS THE IRLED
     delay(2000);
-    //TURN OFF ALL LEDS MINUS THE IRLED
     startSeq();
   }
 }
